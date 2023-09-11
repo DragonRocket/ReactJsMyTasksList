@@ -1,0 +1,31 @@
+.card {
+    background-color: white;
+    width: 35.5rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    color: black;
+}
+
+.card-head {
+    height: 3rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.card-body {
+    display: flex;
+    flex: 1;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    padding: 1rem;
+    min-height: 15rem;
+    /* max-height: 80vh;
+    overflow-y: auto */
+}

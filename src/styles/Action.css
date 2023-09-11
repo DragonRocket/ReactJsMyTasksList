@@ -1,0 +1,141 @@
+.action {
+    padding: 0.6rem;
+    display: flex;
+    gap: 0.9rem;
+    border: 0.1rem solid lightgray;
+    border-radius: 0.8rem;
+    cursor: pointer;
+}
+
+.action:hover {
+    background-color: whitesmoke;
+}
+
+.action-status {
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+.action-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    flex: 1;
+}
+
+.action-content-title {
+    text-align: start;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.action-content-description {
+    display: -webkit-box;
+    text-align: start;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 0rem;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.action:hover .action-content-description {
+    transition: 0.4s;
+    opacity: 1;
+    height: 1.5rem;
+}
+
+.action-content-footer {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.action-content-footer-comments {
+    display: flex;
+    gap: 0.2rem;
+}
+
+.action-content-footer-comments-icon {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    margin-top: 0.2rem;
+    font-size: small;
+}
+
+.action-content-footer-comments-count {
+    padding: 0.1rem;
+    font-weight:600;
+    font-size: medium;
+}
+
+.action-content-footer-type {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    margin-top: 0.2rem;
+}
+
+.action-content-footer-due {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    font-weight: 600;
+}
+
+.action-content-footer-pic{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.15rem;
+}
+
+.action-content-footer-pic img{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.caution {
+    color: red;
+}
+
+.alert {
+    color: orange;
+}
+
+.critical {
+    color: darkred;
+}
+
+.protective {
+    color: blue;
+}
+
+.faint {
+    color: gray;
+}
+
+.vision {
+    color: green;
+}
+
+.completed-text {
+    text-decoration:line-through;
+    color: gray;
+    text-align: start;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.completed-background {
+    background-color: rgb(250, 250, 250);
+}
